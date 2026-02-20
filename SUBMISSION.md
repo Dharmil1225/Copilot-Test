@@ -70,7 +70,7 @@
 <!-- Verify before submitting -->
 
 - [X] Code pushed to public GitHub repository
-- [ ] All mandatory requirements completed
+- [X] All mandatory requirements completed
 - [X] Code is tested and functional
 - [X] README updated (if needed)
 - [X] This SUBMISSION.md file completed
