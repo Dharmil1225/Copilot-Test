@@ -1,0 +1,18 @@
+# Build output
+dist/
+*.js
+*.js.map
+!nodemon.json
+/logs
+/node_modules
+
+# Environment variables
+.env
+.env.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Dependencies (handled by root .gitignore)
+# node_modules/
+# package-lock.json
