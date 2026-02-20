@@ -2,32 +2,30 @@
 
 ## Track Chosen
 <!-- Mark your choice with [x] -->
-- [ ] Backend Only
+- [X] Backend Only
 - [ ] Frontend Only
 - [ ] Full-Stack (Both)
 
 ## GitHub Copilot Usage Summary
 <!-- Describe how you used AI throughout the test. Be specific about when and how you leveraged AI tools. -->
 
-[Write your response here]
+[First, I used the api_guideline file to explain the proper implementation steps. Then, I reviewed the requirements from the md file and included them in the Copilot prompt. Based on those requirements, I added an additional instruction specifying that the database should not be used, as we will be working with an in-memory database. Finally, I clicked the Send button with the codebase context enabled, so it could analyze all the files and generate the implementation accordingly.
+]
 
 ## Key Prompts Used
 <!-- List 3-5 important prompts you used with your AI assistant -->
 
-1. [Example: "Create a RESTful API endpoint for creating ..."]
-2. [Example: "How to implement reactive forms in Angular with ..."]
-3. [Example: "Debug TypeScript error in task service HTTP request"]
-4. 
-5. 
+1. ["Create a task management API in Node.js using Express with an in-memory database, including endpoints for creating, retrieving, updating, and deleting tasks"]
+2. [ "Add proper error handling and also add logger for each api endpoint to capture the all steps" ]
 
 ## Design Decisions (optional)
 <!-- Explain key architectural or implementation decisions you made and why -->
 
-- **Decision 1:** [e.g., "Used a singleton service for in-memory task storage"]
-  - **Reasoning:** [e.g., "To maintain state consistency across API calls without a database"]
+- **Decision 1:** [ "Use in-memory database to save the task details" ]
+  - **Reasoning:** []
 
-- **Decision 2:** [e.g., "Implemented reactive forms instead of template-driven"]
-  - **Reasoning:** [e.g., "Better type safety and validation control"]
+- **Decision 2:** [ "Use class-validator to verify the incoming request and also use the dto patterns for request payload " ]
+  - **Reasoning:** []
 
 - **Decision 3:** 
   - **Reasoning:** 
@@ -51,10 +49,10 @@
 <!-- If you attempted an optional challenge, specify which one -->
 
 - [ ] Not Attempted
-- [ ] Option 1: Request Logging Middleware
-- [ ] Option 2: API Pagination
+- [X] Option 1: Request Logging Middleware
+- [X] Option 2: API Pagination
 - [ ] Option 3: Advanced Validation
-- [ ] Option 4: Task Filtering & Search
+- [X] Option 4: Task Filtering & Search
 - [ ] Option 5: Form Validation & UX
 - [ ] Option 6: Drag-and-Drop Task Reordering
 - [ ] Option 7: Local Storage / Offline Support
@@ -71,11 +69,11 @@
 ## Submission Checklist
 <!-- Verify before submitting -->
 
-- [ ] Code pushed to public GitHub repository
+- [X] Code pushed to public GitHub repository
 - [ ] All mandatory requirements completed
-- [ ] Code is tested and functional
-- [ ] README updated (if needed)
-- [ ] This SUBMISSION.md file completed
-- [ ] MS Teams recording completed and shared
-- [ ] GitHub repository URL provided to RM
-- [ ] MS Teams recording link provided to RM
+- [X] Code is tested and functional
+- [X] README updated (if needed)
+- [X] This SUBMISSION.md file completed
+- [X] MS Teams recording completed and shared
+- [X] GitHub repository URL provided to RM
+- [X] MS Teams recording link provided to RM
